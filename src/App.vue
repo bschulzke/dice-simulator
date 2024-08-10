@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DiceSimulator/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DiceSimulator from './components/DiceSimulator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DiceSimulator
   }
 }
 </script>
